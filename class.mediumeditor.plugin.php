@@ -2,8 +2,9 @@
 
 $PluginInfo['mediumeditor'] = array(
     'Name'        => "MediumEditor",
-    'Version'     => '1.0.0',
     'Description' => "HTML5 Content Editable makes its way to Vanilla through the MediumEditor Javascript plugin by Davi Ferreira. It offers an entirely new editing experience that is sure to please both you and your users alike.",
+    'Version'     => '1.0.0',
+    'PluginUrl'   => 'https://github.com/kasperisager/vanilla-mediumeditor',
     'Author'      => "Kasper Kronborg Isager",
     'AuthorEmail' => 'kasperisager@gmail.com',
     'AuthorUrl'   => 'https://github.com/kasperisager',
