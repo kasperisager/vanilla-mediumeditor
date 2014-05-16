@@ -2,6 +2,6 @@
   "name": "vanilla-mediumeditor",
   "private": true,
   "dependencies": {
-    "medium-editor": "~1.6.7"
+    "medium-editor": "1.8.8"
   }
 }
