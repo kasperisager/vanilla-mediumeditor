@@ -40,6 +40,9 @@
       $textarea.val($contentEditable.html());
     });
 
+    // Initialize @mention autocompletion
+    gdn.atCompleteInit($contentEditable);
+
     // Attach the editor to the textarea
     $textarea.data('editor', editor);
 
