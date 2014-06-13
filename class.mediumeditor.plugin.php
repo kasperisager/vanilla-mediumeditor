@@ -39,7 +39,7 @@ class MediumEditorPlugin extends Gdn_Plugin
         Gdn::controller()->removeJsFile('jquery.autogrow.js');
 
         // Add the assets we need for the editor
-        Gdn::controller()->addJsFile('editor.min.js', 'plugins/mediumeditor');
-        Gdn::controller()->addCssFile('editor.min.css', 'plugins/mediumeditor');
+        Gdn::controller()->addCssFile($this->getResource('design/editor.min.css', false, false));
+        Gdn::controller()->addJsFile($this->getResource('js/editor.min.js', false, false));
     }
 }
