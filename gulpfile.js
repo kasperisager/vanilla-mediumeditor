@@ -3,7 +3,7 @@ var gulp       = require('gulp')
   , uglify     = require('gulp-uglify')
   , livereload = require('gulp-livereload');
 
-gulp.task('concat', function () {
+gulp.task('scripts', function () {
   gulp.src([
     // MediumEditor library
     'bower_components/medium-editor/dist/js/medium-editor.js'

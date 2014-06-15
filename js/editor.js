@@ -14,7 +14,9 @@
     var $textarea = $(textarea);
 
     // If an editor is already attached, bail out
-    if ($textarea.data('editor')) return;
+    if ($textarea.data('editor')) {
+      return;
+    }
 
     // Create an contentEditable element that we can attach the editor to
     var $contentEditable = $('<div class="editor js-editor"></div>');
@@ -50,7 +52,7 @@
     $textarea.data('contentEditable', $contentEditable);
 
     // Hide the original textarea
-    $textarea.addClass('Hidden');
+    $textarea.hide().addClass('Hidden');
   };
 
   Editor.prototype.attachEditorHandler = function () {
