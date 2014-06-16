@@ -43,7 +43,9 @@
     });
 
     // Initialize @mention autocompletion
-    gdn.atCompleteInit($contentEditable);
+    if (gdn.atCompleteInit) {
+      gdn.atCompleteInit($contentEditable);
+    }
 
     // Attach the editor to the textarea
     $textarea.data('editor', editor);
